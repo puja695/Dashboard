@@ -1,0 +1,89 @@
+.dashboard {
+  display: flex;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background: #121212; /* Dark background */
+  color: #f5f5f5;
+}
+
+/* Sidebar (30%) */
+.sidebar {
+  width: 30%;
+  background: #1e1e1e;
+  padding: 20px;
+  border-right: 2px solid #333;
+}
+
+.sidebar h2 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ff9800; /* Orange accent */
+}
+
+.sidebar input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 6px;
+  background: #2a2a2a;
+  color: #f5f5f5;
+}
+
+.sidebar input::placeholder {
+  color: #aaa;
+}
+
+/* Jobs panel (70%) */
+.jobs-panel {
+  width: 70%;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.jobs-panel h2 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ff9800;
+}
+
+.jobs-panel table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #1e1e1e;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.jobs-panel th,
+.jobs-panel td {
+  padding: 12px;
+  border-bottom: 1px solid #333;
+  text-align: left;
+}
+
+.jobs-panel th {
+  background: #2a2a2a;
+  color: #ff9800;
+  font-weight: bold;
+}
+
+.jobs-panel tr:hover {
+  background: #2d2d2d;
+}
+
+.apply-btn {
+  background: #ff9800;
+  color: black;
+  padding: 6px 12px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+.apply-btn:hover {
+  background: #e68900;
+}
